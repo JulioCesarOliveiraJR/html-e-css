@@ -309,6 +309,7 @@
 }
 .main_school_content{
     max-width: 1200px;
+    padding: 0 20px;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
@@ -652,6 +653,21 @@
     .main_optin_content form input[type=text], .main_optin_content form input[type=email]{
         padding: 6px 12px !important;
     }
+
+    .main_school_content_left{
+        flex-basis: 100%;
+    }
+
+    .main_school_content_right{
+        flex-basis: 200px;
+        max-width: 200px;
+        padding: 20px;
+    }
+
+    .main_school_address{
+        flex-basis: calc(100% - 200px);
+        margin: auto;
+    }
 }
 
 /* 786px */
@@ -682,6 +698,13 @@
     }
     .main_course_rating_content_comment h2{
         font-size: 0.9em;
+    }
+
+    .main_school_list > article{
+        flex-basis: 100%;
+        margin: 10px 0;
+        font-size: 0.9em;
+        line-height: 1em;
     }
 }
 
@@ -717,6 +740,16 @@
 
 }
 
+/* 520px */
+@media (max-width: 32em){
+    .main_school_content_right{
+        display: none ;
+    }
+
+    .main_school_address{
+        flex-basis: 100%;
+    }
+}
 
 /* 480px */
 @media (max-width: 32em){  /* correto na calculadora é 30em */
