@@ -206,6 +206,7 @@
 .main_course .main_course_header{
     max-width: 800px;
     margin: 0 auto;
+    padding: 0 20px;
     text-align: center;
     margin-bottom: 40px;
 }
@@ -713,6 +714,21 @@
 
     .main_blog article{
         flex-basis: 100%
+    }
+
+    .main_course .main_course_header h1{
+        font-size: 2em;
+    }
+    .main_course .main_course_header p{
+        font-size: 0.9em;
+    }
+
+    .main_course_content article{
+        flex-basis: calc(100% - 40px);
+        margin: 10px 0;
+    }
+    .main_course_content article h2{
+        text-align: center;
     }
 }
 
