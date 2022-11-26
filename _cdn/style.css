@@ -670,6 +670,13 @@
     }
 }
 
+/* 828px */
+@media (max-width: 51.6em){
+    .main_tutor_social_network > article{
+        font-size: 0.8em;
+    }
+}
+
 /* 786px */
 @media (max-width: 48em){
     .main_header_content_menu{
@@ -706,6 +713,19 @@
         font-size: 0.9em;
         line-height: 1em;
     }
+
+    .main_tutor_social_network{
+        max-width: 80%;
+    }
+
+    .main_tutor_social_network h2{
+        margin-bottom: 20px;
+    }
+
+    .main_tutor_social_network > article{
+        flex-basis: 49%;
+        margin-bottom: 20px;
+    }
 }
 
 /* 640px */
@@ -738,6 +758,13 @@
         font-size: 1.2em;
     }
 
+}
+
+/* 580px */
+@media (max-width: 36em){
+    .main_tutor_social_network > article{
+        flex-basis: 100%;
+    }
 }
 
 /* 520px */
