@@ -1,10 +1,36 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br" itemscope itemtype="https://schema.org/WebSite">
+    <!-- Aqui é uma das recomendações do google plus, onde "itemscope" é do tipo booleano (então estou passando que vai ter (true)) 
+        sendo assim, preciso passar o "itemtype" - Existe diversos tipo (vai de acordo com a natureza do conteudo do seu site)
+        Lista dos tipos - https://schema.org/docs/schemas.html
+    -->
+
 
 <head>
+    <title>Projeto HTML5 e CSS3</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!-- Otimização Social -->
+    <!-- Descrição para o seu site -->
+    <meta name="description" content="Projeto Prático do curso HTML5 e CSS3"> 
+    
+    <!-- os robos dos buscadores podem indexar (index) meu site e pode ficar seguindo(follow) as atualizações -->
+    <!-- Existe os noindex e nofollow (geralmente usado em painel adminstrativo) -->
+    <meta name="robots" content="index, follow"> 
+
+    <link rel="canonical" href="http://deletesemwhere.com/">
+
+    <!-- Servindo Protocolo Goole+ -->
+    <meta itemprop="name" content="Projeto HTML5 e CSS3"> 
+    <meta itemprop="imagem" content="http://deletesemwhere.com/_img/desenvolvimento.png"> <!-- Imagem que aparece quando você compartilha -->
+    <meta itemprop="description" content="Projeto Prático do curso HTML5 e CSS3"> <!-- Servindo Protocolo Goole+ -->
+    <meta itemprop="url" content="http://deletesemwhere.com/">
+
+    
+
     <!-- Add pacote de icones -->
     <link rel="stylesheet" href="_cdn/fonticon.css">
     <!-- Fonte do google fonts -->
@@ -13,7 +39,7 @@
     <link rel="stylesheet" href="_cdn/boot.css">
     <!-- Estilo proprio para o site -->
     <link rel="stylesheet" href="_cdn/style.css">
-    <title>Projeto HTML5 e CSS3</title>
+    
 </head>
 
 <body>
