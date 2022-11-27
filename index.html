@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br" itemscope itemtype="https://schema.org/WebSite">
-    <!-- Aqui é uma das recomendações do google plus, onde "itemscope" é do tipo booleano (então estou passando que vai ter (true)) 
+<!-- Aqui é uma das recomendações do google plus, onde "itemscope" é do tipo booleano (então estou passando que vai ter (true)) 
         sendo assim, preciso passar o "itemtype" - Existe diversos tipo (vai de acordo com a natureza do conteudo do seu site)
         Lista dos tipos - https://schema.org/docs/schemas.html
     -->
@@ -15,38 +15,41 @@
 
     <!-- Otimização Social -->
     <!-- Descrição para o seu site -->
-    <meta name="description" content="Projeto Prático do curso HTML5 e CSS3"> 
-    
+    <meta name="description" content="Projeto Prático do curso HTML5 e CSS3">
+
     <!-- os robos dos buscadores podem indexar (index) meu site e pode ficar seguindo(follow) as atualizações -->
     <!-- Existe os noindex e nofollow (geralmente usado em painel adminstrativo) -->
-    <meta name="robots" content="index, follow"> 
+    <meta name="robots" content="index, follow">
 
     <link rel="canonical" href="http://deletesemwhere.com/">
 
     <!-- Servindo Protocolo Goole+ -->
-    <meta itemprop="name" content="Projeto HTML5 e CSS3"> 
-    <meta itemprop="imagem" content="http://deletesemwhere.com/_img/desenvolvimento.png"> <!-- Imagem que aparece quando você compartilha -->
+    <meta itemprop="name" content="Projeto HTML5 e CSS3">
+    <meta itemprop="imagem" content="http://deletesemwhere.com/_img/desenvolvimento.png">
+    <!-- Imagem que aparece quando você compartilha -->
     <meta itemprop="description" content="Projeto Prático do curso HTML5 e CSS3"> <!-- Servindo Protocolo Goole+ -->
     <meta itemprop="url" content="http://deletesemwhere.com/">
 
     <!-- Servindo Protocolos para o Facebook - https://developers.facebook.com/docs/sharing/webmasters/ -->
     <meta property="og:url" content="http://deletesemwhere.com/" />
     <meta property="og:type" content="article" /> <!-- https://ogp.me/#types -->
-    <meta property="og:title"content="Projeto HTML5 e CSS3" />
+    <meta property="og:title" content="Projeto HTML5 e CSS3" />
     <meta property="og:description" content="Projeto Prático do curso HTML5 e CSS3" />
     <meta property="og:image" content="http://deletesemwhere.com/_img/desenvolvimento.png" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
     <!-- <meta property="fb_app_id" content="xxxxxxxx" /> Para usar as Informações do Facebook, adicione o ID do aplicativo à sua página.-->
-    <meta property="og:locale" content="pt_BR" /> <!-- https://developers.facebook.com/docs/javascript/internationalization#locales-->
+    <meta property="og:locale" content="pt_BR" />
+    <!-- https://developers.facebook.com/docs/javascript/internationalization#locales-->
     <meta property="article:author" content="https://www.facebook.com/julio.junior57" />
     <meta property="article:publisher" content="https://www.facebook.com/julio.junior57" />
 
 
     <!-- Servindo Protocolos para o Twitter - https://developer.twitter.com/en/docs/twitter-for-websites/cards/overview/summary-card-with-large-image -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="http://deletesemwhere.com/">   
-    <!-- <meta name="twitter:creator" content="@SarahMaslinNir"> --> <!-- Não tenho twitter-->
+    <meta name="twitter:site" content="http://deletesemwhere.com/">
+    <!-- <meta name="twitter:creator" content="@SarahMaslinNir"> -->
+    <!-- Não tenho twitter-->
     <meta name="twitter:title" content="Projeto HTML5 e CSS3">
     <meta name="twitter:description" content="Projeto Prático do curso HTML5 e CSS3">
     <meta name="twitter:image" content="http://deletesemwhere.com/_img/desenvolvimento.png">
@@ -62,7 +65,7 @@
     <link rel="stylesheet" href="_cdn/boot.css">
     <!-- Estilo proprio para o site -->
     <link rel="stylesheet" href="_cdn/style.css">
-    
+
 </head>
 
 <body>
@@ -124,12 +127,123 @@
                 </a>
 
                 <p><a href="#" class="category">Categoria</a></p>
-                <h2><a href="#" class="title"><span itemprop="headline">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span></a></h2>
+                <h2><a href="#" class="title"><span itemprop="headline">Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit.</span></a></h2>
                 <div class="main_blog_meta">
                     <p>
-                        <span itemprop="author" itemscope itemtype="https://schema.org/Person">Por: <a href="https://www.facebook.com/julio.junior57" itemprop="url"><span itemprop="name">Julio Cesar Jr</span></a></span><br>
-                        <span itemprop="publisher" itemscope itemtype="https://schema.org/Organization">via: <span itemprop="logo" itemscope itemtype="https://schema.org/ImageObject"><img itemprop="url" src="_img/desenvolvimento.png" alt=""></span> <a href="https://www.facebook.com/julio.junior57" itemprop="url"><span itemprop="name">DeleteSemWhere</span></a>
-                            
+                        <span itemprop="author" itemscope itemtype="https://schema.org/Person">Por: <a
+                                href="https://www.facebook.com/julio.junior57" itemprop="url"><span
+                                    itemprop="name">Julio Cesar Jr</span></a></span><br>
+                        <span itemprop="publisher" itemscope itemtype="https://schema.org/Organization">via: <span
+                                itemprop="logo" itemscope itemtype="https://schema.org/ImageObject"><img itemprop="url"
+                                    src="_img/desenvolvimento.png" alt=""></span> <a
+                                href="https://www.facebook.com/julio.junior57" itemprop="url"><span
+                                    itemprop="name">DeleteSemWhere</span></a>
+
+                        </span>
+                    </p>
+                    <time datetime="2022-11-27" itemprop="datePublished">27/11/2022</time>
+                    <time datetime="2022-11-27" itemprop="dateModified" class="ds_none">27/11/2022</time>
+                </div>
+            </article>
+
+            <article itemscope itemtype="https://schema.org/Article">
+                <a href="#" itemprop="mainEntityOfPage">
+                    <img src="_img/post.jpg" alt="blog" title="blog" itemprop="image">
+                </a>
+
+                <p><a href="#" class="category">Categoria</a></p>
+                <h2><a href="#" class="title"><span itemprop="headline">Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit.</span></a></h2>
+                <div class="main_blog_meta">
+                    <p>
+                        <span itemprop="author" itemscope itemtype="https://schema.org/Person">Por: <a
+                                href="https://www.facebook.com/julio.junior57" itemprop="url"><span
+                                    itemprop="name">Julio Cesar Jr</span></a></span><br>
+                        <span itemprop="publisher" itemscope itemtype="https://schema.org/Organization">via: <span
+                                itemprop="logo" itemscope itemtype="https://schema.org/ImageObject"><img itemprop="url"
+                                    src="_img/desenvolvimento.png" alt=""></span> <a
+                                href="https://www.facebook.com/julio.junior57" itemprop="url"><span
+                                    itemprop="name">DeleteSemWhere</span></a>
+
+                        </span>
+                    </p>
+                    <time datetime="2022-11-27" itemprop="datePublished">27/11/2022</time>
+                    <time datetime="2022-11-27" itemprop="dateModified" class="ds_none">27/11/2022</time>
+                </div>
+            </article>
+
+            <article itemscope itemtype="https://schema.org/Article">
+                <a href="#" itemprop="mainEntityOfPage">
+                    <img src="_img/post.jpg" alt="blog" title="blog" itemprop="image">
+                </a>
+
+                <p><a href="#" class="category">Categoria</a></p>
+                <h2><a href="#" class="title"><span itemprop="headline">Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit.</span></a></h2>
+                <div class="main_blog_meta">
+                    <p>
+                        <span itemprop="author" itemscope itemtype="https://schema.org/Person">Por: <a
+                                href="https://www.facebook.com/julio.junior57" itemprop="url"><span
+                                    itemprop="name">Julio Cesar Jr</span></a></span><br>
+                        <span itemprop="publisher" itemscope itemtype="https://schema.org/Organization">via: <span
+                                itemprop="logo" itemscope itemtype="https://schema.org/ImageObject"><img itemprop="url"
+                                    src="_img/desenvolvimento.png" alt=""></span> <a
+                                href="https://www.facebook.com/julio.junior57" itemprop="url"><span
+                                    itemprop="name">DeleteSemWhere</span></a>
+
+                        </span>
+                    </p>
+                    <time datetime="2022-11-27" itemprop="datePublished">27/11/2022</time>
+                    <time datetime="2022-11-27" itemprop="dateModified" class="ds_none">27/11/2022</time>
+                </div>
+            </article>
+
+            <article itemscope itemtype="https://schema.org/Article">
+                <a href="#" itemprop="mainEntityOfPage">
+                    <img src="_img/post.jpg" alt="blog" title="blog" itemprop="image">
+                </a>
+
+                <p><a href="#" class="category">Categoria</a></p>
+                <h2><a href="#" class="title"><span itemprop="headline">Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit.</span></a></h2>
+                <div class="main_blog_meta">
+                    <p>
+                        <span itemprop="author" itemscope itemtype="https://schema.org/Person">Por: <a
+                                href="https://www.facebook.com/julio.junior57" itemprop="url"><span
+                                    itemprop="name">Julio Cesar Jr</span></a></span><br>
+                        <span itemprop="publisher" itemscope itemtype="https://schema.org/Organization">via: <span
+                                itemprop="logo" itemscope itemtype="https://schema.org/ImageObject"><img itemprop="url"
+                                    src="_img/desenvolvimento.png" alt=""></span> <a
+                                href="https://www.facebook.com/julio.junior57" itemprop="url"><span
+                                    itemprop="name">DeleteSemWhere</span></a>
+
+                        </span>
+                    </p>
+                    <time datetime="2022-11-27" itemprop="datePublished">27/11/2022</time>
+                    <time datetime="2022-11-27" itemprop="dateModified" class="ds_none">27/11/2022</time>
+                </div>
+            </article>
+
+            <article itemscope itemtype="https://schema.org/Article">
+                <a href="#" itemprop="mainEntityOfPage">
+                    <img src="_img/post.jpg" alt="blog" title="blog" itemprop="image">
+                </a>
+
+                <p><a href="#" class="category">Categoria</a></p>
+                <h2><a href="#" class="title"><span itemprop="headline">Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit.</span></a></h2>
+                <div class="main_blog_meta">
+                    <p>
+                        <span itemprop="author" itemscope itemtype="https://schema.org/Person">Por: <a
+                                href="https://www.facebook.com/julio.junior57" itemprop="url"><span
+                                    itemprop="name">Julio Cesar Jr</span></a></span><br>
+                        <span itemprop="publisher" itemscope itemtype="https://schema.org/Organization">via: <span
+                                itemprop="logo" itemscope itemtype="https://schema.org/ImageObject"><img itemprop="url"
+                                    src="_img/desenvolvimento.png" alt=""></span> <a
+                                href="https://www.facebook.com/julio.junior57" itemprop="url"><span
+                                    itemprop="name">DeleteSemWhere</span></a>
+
                         </span>
                     </p>
                     <time datetime="2022-11-27" itemprop="datePublished">27/11/2022</time>
@@ -146,9 +260,14 @@
                 <h2><a href="#" class="title"><span itemprop="headline">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span></a></h2>
                 <div class="main_blog_meta">
                     <p>
-                        <span itemprop="author" itemscope itemtype="https://schema.org/Person">Por: <a href="https://www.facebook.com/julio.junior57" itemprop="url"><span itemprop="name">Julio Cesar Jr</span></a></span><br>
-                        <span itemprop="publisher" itemscope itemtype="https://schema.org/Organization">via: <span itemprop="logo" itemscope itemtype="https://schema.org/ImageObject"><img itemprop="url" src="_img/desenvolvimento.png" alt=""></span> <a href="https://www.facebook.com/julio.junior57" itemprop="url"><span itemprop="name">DeleteSemWhere</span></a>
-                            
+                        <span itemprop="author" itemscope itemtype="https://schema.org/Person">Por: <a
+                                href="https://www.facebook.com/julio.junior57" itemprop="url"><span
+                                    itemprop="name">Julio Cesar Jr</span></a></span><br>
+                        <span itemprop="publisher" itemscope itemtype="https://schema.org/Organization">via: <span
+                                itemprop="logo" itemscope itemtype="https://schema.org/ImageObject"><img itemprop="url"
+                                    src="_img/desenvolvimento.png" alt=""></span> <a
+                                href="https://www.facebook.com/julio.junior57" itemprop="url"><span
+                                    itemprop="name">DeleteSemWhere</span></a>
                         </span>
                     </p>
                     <time datetime="2022-11-27" itemprop="datePublished">27/11/2022</time>
@@ -162,12 +281,19 @@
                 </a>
 
                 <p><a href="#" class="category">Categoria</a></p>
-                <h2><a href="#" class="title"><span itemprop="headline">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span></a></h2>
+                <h2><a href="#" class="title"><span itemprop="headline">Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit.</span></a></h2>
                 <div class="main_blog_meta">
                     <p>
-                        <span itemprop="author" itemscope itemtype="https://schema.org/Person">Por: <a href="https://www.facebook.com/julio.junior57" itemprop="url"><span itemprop="name">Julio Cesar Jr</span></a></span><br>
-                        <span itemprop="publisher" itemscope itemtype="https://schema.org/Organization">via: <span itemprop="logo" itemscope itemtype="https://schema.org/ImageObject"><img itemprop="url" src="_img/desenvolvimento.png" alt=""></span> <a href="https://www.facebook.com/julio.junior57" itemprop="url"><span itemprop="name">DeleteSemWhere</span></a>
-                            
+                        <span itemprop="author" itemscope itemtype="https://schema.org/Person">Por: <a
+                                href="https://www.facebook.com/julio.junior57" itemprop="url"><span
+                                    itemprop="name">Julio Cesar Jr</span></a></span><br>
+                        <span itemprop="publisher" itemscope itemtype="https://schema.org/Organization">via: <span
+                                itemprop="logo" itemscope itemtype="https://schema.org/ImageObject"><img itemprop="url"
+                                    src="_img/desenvolvimento.png" alt=""></span> <a
+                                href="https://www.facebook.com/julio.junior57" itemprop="url"><span
+                                    itemprop="name">DeleteSemWhere</span></a>
+
                         </span>
                     </p>
                     <time datetime="2022-11-27" itemprop="datePublished">27/11/2022</time>
@@ -181,12 +307,19 @@
                 </a>
 
                 <p><a href="#" class="category">Categoria</a></p>
-                <h2><a href="#" class="title"><span itemprop="headline">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span></a></h2>
+                <h2><a href="#" class="title"><span itemprop="headline">Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit.</span></a></h2>
                 <div class="main_blog_meta">
                     <p>
-                        <span itemprop="author" itemscope itemtype="https://schema.org/Person">Por: <a href="https://www.facebook.com/julio.junior57" itemprop="url"><span itemprop="name">Julio Cesar Jr</span></a></span><br>
-                        <span itemprop="publisher" itemscope itemtype="https://schema.org/Organization">via: <span itemprop="logo" itemscope itemtype="https://schema.org/ImageObject"><img itemprop="url" src="_img/desenvolvimento.png" alt=""></span> <a href="https://www.facebook.com/julio.junior57" itemprop="url"><span itemprop="name">DeleteSemWhere</span></a>
-                            
+                        <span itemprop="author" itemscope itemtype="https://schema.org/Person">Por: <a
+                                href="https://www.facebook.com/julio.junior57" itemprop="url"><span
+                                    itemprop="name">Julio Cesar Jr</span></a></span><br>
+                        <span itemprop="publisher" itemscope itemtype="https://schema.org/Organization">via: <span
+                                itemprop="logo" itemscope itemtype="https://schema.org/ImageObject"><img itemprop="url"
+                                    src="_img/desenvolvimento.png" alt=""></span> <a
+                                href="https://www.facebook.com/julio.junior57" itemprop="url"><span
+                                    itemprop="name">DeleteSemWhere</span></a>
+
                         </span>
                     </p>
                     <time datetime="2022-11-27" itemprop="datePublished">27/11/2022</time>
@@ -200,12 +333,19 @@
                 </a>
 
                 <p><a href="#" class="category">Categoria</a></p>
-                <h2><a href="#" class="title"><span itemprop="headline">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span></a></h2>
+                <h2><a href="#" class="title"><span itemprop="headline">Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit.</span></a></h2>
                 <div class="main_blog_meta">
                     <p>
-                        <span itemprop="author" itemscope itemtype="https://schema.org/Person">Por: <a href="https://www.facebook.com/julio.junior57" itemprop="url"><span itemprop="name">Julio Cesar Jr</span></a></span><br>
-                        <span itemprop="publisher" itemscope itemtype="https://schema.org/Organization">via: <span itemprop="logo" itemscope itemtype="https://schema.org/ImageObject"><img itemprop="url" src="_img/desenvolvimento.png" alt=""></span> <a href="https://www.facebook.com/julio.junior57" itemprop="url"><span itemprop="name">DeleteSemWhere</span></a>
-                            
+                        <span itemprop="author" itemscope itemtype="https://schema.org/Person">Por: <a
+                                href="https://www.facebook.com/julio.junior57" itemprop="url"><span
+                                    itemprop="name">Julio Cesar Jr</span></a></span><br>
+                        <span itemprop="publisher" itemscope itemtype="https://schema.org/Organization">via: <span
+                                itemprop="logo" itemscope itemtype="https://schema.org/ImageObject"><img itemprop="url"
+                                    src="_img/desenvolvimento.png" alt=""></span> <a
+                                href="https://www.facebook.com/julio.junior57" itemprop="url"><span
+                                    itemprop="name">DeleteSemWhere</span></a>
+
                         </span>
                     </p>
                     <time datetime="2022-11-27" itemprop="datePublished">27/11/2022</time>
@@ -219,12 +359,19 @@
                 </a>
 
                 <p><a href="#" class="category">Categoria</a></p>
-                <h2><a href="#" class="title"><span itemprop="headline">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span></a></h2>
+                <h2><a href="#" class="title"><span itemprop="headline">Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit.</span></a></h2>
                 <div class="main_blog_meta">
                     <p>
-                        <span itemprop="author" itemscope itemtype="https://schema.org/Person">Por: <a href="https://www.facebook.com/julio.junior57" itemprop="url"><span itemprop="name">Julio Cesar Jr</span></a></span><br>
-                        <span itemprop="publisher" itemscope itemtype="https://schema.org/Organization">via: <span itemprop="logo" itemscope itemtype="https://schema.org/ImageObject"><img itemprop="url" src="_img/desenvolvimento.png" alt=""></span> <a href="https://www.facebook.com/julio.junior57" itemprop="url"><span itemprop="name">DeleteSemWhere</span></a>
-                            
+                        <span itemprop="author" itemscope itemtype="https://schema.org/Person">Por: <a
+                                href="https://www.facebook.com/julio.junior57" itemprop="url"><span
+                                    itemprop="name">Julio Cesar Jr</span></a></span><br>
+                        <span itemprop="publisher" itemscope itemtype="https://schema.org/Organization">via: <span
+                                itemprop="logo" itemscope itemtype="https://schema.org/ImageObject"><img itemprop="url"
+                                    src="_img/desenvolvimento.png" alt=""></span> <a
+                                href="https://www.facebook.com/julio.junior57" itemprop="url"><span
+                                    itemprop="name">DeleteSemWhere</span></a>
+
                         </span>
                     </p>
                     <time datetime="2022-11-27" itemprop="datePublished">27/11/2022</time>
@@ -238,12 +385,19 @@
                 </a>
 
                 <p><a href="#" class="category">Categoria</a></p>
-                <h2><a href="#" class="title"><span itemprop="headline">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span></a></h2>
+                <h2><a href="#" class="title"><span itemprop="headline">Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit.</span></a></h2>
                 <div class="main_blog_meta">
                     <p>
-                        <span itemprop="author" itemscope itemtype="https://schema.org/Person">Por: <a href="https://www.facebook.com/julio.junior57" itemprop="url"><span itemprop="name">Julio Cesar Jr</span></a></span><br>
-                        <span itemprop="publisher" itemscope itemtype="https://schema.org/Organization">via: <span itemprop="logo" itemscope itemtype="https://schema.org/ImageObject"><img itemprop="url" src="_img/desenvolvimento.png" alt=""></span> <a href="https://www.facebook.com/julio.junior57" itemprop="url"><span itemprop="name">DeleteSemWhere</span></a>
-                            
+                        <span itemprop="author" itemscope itemtype="https://schema.org/Person">Por: <a
+                                href="https://www.facebook.com/julio.junior57" itemprop="url"><span
+                                    itemprop="name">Julio Cesar Jr</span></a></span><br>
+                        <span itemprop="publisher" itemscope itemtype="https://schema.org/Organization">via: <span
+                                itemprop="logo" itemscope itemtype="https://schema.org/ImageObject"><img itemprop="url"
+                                    src="_img/desenvolvimento.png" alt=""></span> <a
+                                href="https://www.facebook.com/julio.junior57" itemprop="url"><span
+                                    itemprop="name">DeleteSemWhere</span></a>
+
                         </span>
                     </p>
                     <time datetime="2022-11-27" itemprop="datePublished">27/11/2022</time>
@@ -257,88 +411,19 @@
                 </a>
 
                 <p><a href="#" class="category">Categoria</a></p>
-                <h2><a href="#" class="title"><span itemprop="headline">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span></a></h2>
+                <h2><a href="#" class="title"><span itemprop="headline">Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit.</span></a></h2>
                 <div class="main_blog_meta">
                     <p>
-                        <span itemprop="author" itemscope itemtype="https://schema.org/Person">Por: <a href="https://www.facebook.com/julio.junior57" itemprop="url"><span itemprop="name">Julio Cesar Jr</span></a></span><br>
-                        <span itemprop="publisher" itemscope itemtype="https://schema.org/Organization">via: <span itemprop="logo" itemscope itemtype="https://schema.org/ImageObject"><img itemprop="url" src="_img/desenvolvimento.png" alt=""></span> <a href="https://www.facebook.com/julio.junior57" itemprop="url"><span itemprop="name">DeleteSemWhere</span></a>
-                            
-                        </span>
-                    </p>
-                    <time datetime="2022-11-27" itemprop="datePublished">27/11/2022</time>
-                    <time datetime="2022-11-27" itemprop="dateModified" class="ds_none">27/11/2022</time>
-                </div>
-            </article>
+                        <span itemprop="author" itemscope itemtype="https://schema.org/Person">Por: <a
+                                href="https://www.facebook.com/julio.junior57" itemprop="url"><span
+                                    itemprop="name">Julio Cesar Jr</span></a></span><br>
+                        <span itemprop="publisher" itemscope itemtype="https://schema.org/Organization">via: <span
+                                itemprop="logo" itemscope itemtype="https://schema.org/ImageObject"><img itemprop="url"
+                                    src="_img/desenvolvimento.png" alt=""></span> <a
+                                href="https://www.facebook.com/julio.junior57" itemprop="url"><span
+                                    itemprop="name">DeleteSemWhere</span></a>
 
-            <article itemscope itemtype="https://schema.org/Article">
-                <a href="#" itemprop="mainEntityOfPage">
-                    <img src="_img/post.jpg" alt="blog" title="blog" itemprop="image">
-                </a>
-
-                <p><a href="#" class="category">Categoria</a></p>
-                <h2><a href="#" class="title"><span itemprop="headline">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span></a></h2>
-                <div class="main_blog_meta">
-                    <p>
-                        <span itemprop="author" itemscope itemtype="https://schema.org/Person">Por: <a href="https://www.facebook.com/julio.junior57" itemprop="url"><span itemprop="name">Julio Cesar Jr</span></a></span><br>
-                        <span itemprop="publisher" itemscope itemtype="https://schema.org/Organization">via: <span itemprop="logo" itemscope itemtype="https://schema.org/ImageObject"><img itemprop="url" src="_img/desenvolvimento.png" alt=""></span> <a href="https://www.facebook.com/julio.junior57" itemprop="url"><span itemprop="name">DeleteSemWhere</span></a>
-                            
-                        </span>
-                    </p>
-                    <time datetime="2022-11-27" itemprop="datePublished">27/11/2022</time>
-                    <time datetime="2022-11-27" itemprop="dateModified" class="ds_none">27/11/2022</time>
-                </div>
-            </article>
-
-            <article itemscope itemtype="https://schema.org/Article">
-                <a href="#" itemprop="mainEntityOfPage">
-                    <img src="_img/post.jpg" alt="blog" title="blog" itemprop="image">
-                </a>
-
-                <p><a href="#" class="category">Categoria</a></p>
-                <h2><a href="#" class="title"><span itemprop="headline">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span></a></h2>
-                <div class="main_blog_meta">
-                    <p>
-                        <span itemprop="author" itemscope itemtype="https://schema.org/Person">Por: <a href="https://www.facebook.com/julio.junior57" itemprop="url"><span itemprop="name">Julio Cesar Jr</span></a></span><br>
-                        <span itemprop="publisher" itemscope itemtype="https://schema.org/Organization">via: <span itemprop="logo" itemscope itemtype="https://schema.org/ImageObject"><img itemprop="url" src="_img/desenvolvimento.png" alt=""></span> <a href="https://www.facebook.com/julio.junior57" itemprop="url"><span itemprop="name">DeleteSemWhere</span></a>
-                            
-                        </span>
-                    </p>
-                    <time datetime="2022-11-27" itemprop="datePublished">27/11/2022</time>
-                    <time datetime="2022-11-27" itemprop="dateModified" class="ds_none">27/11/2022</time>
-                </div>
-            </article>
-
-            <article itemscope itemtype="https://schema.org/Article">
-                <a href="#" itemprop="mainEntityOfPage">
-                    <img src="_img/post.jpg" alt="blog" title="blog" itemprop="image">
-                </a>
-
-                <p><a href="#" class="category">Categoria</a></p>
-                <h2><a href="#" class="title"><span itemprop="headline">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span></a></h2>
-                <div class="main_blog_meta">
-                    <p>
-                        <span itemprop="author" itemscope itemtype="https://schema.org/Person">Por: <a href="https://www.facebook.com/julio.junior57" itemprop="url"><span itemprop="name">Julio Cesar Jr</span></a></span><br>
-                        <span itemprop="publisher" itemscope itemtype="https://schema.org/Organization">via: <span itemprop="logo" itemscope itemtype="https://schema.org/ImageObject"><img itemprop="url" src="_img/desenvolvimento.png" alt=""></span> <a href="https://www.facebook.com/julio.junior57" itemprop="url"><span itemprop="name">DeleteSemWhere</span></a>
-                            
-                        </span>
-                    </p>
-                    <time datetime="2022-11-27" itemprop="datePublished">27/11/2022</time>
-                    <time datetime="2022-11-27" itemprop="dateModified" class="ds_none">27/11/2022</time>
-                </div>
-            </article>
-
-            <article itemscope itemtype="https://schema.org/Article">
-                <a href="#" itemprop="mainEntityOfPage">
-                    <img src="_img/post.jpg" alt="blog" title="blog" itemprop="image">
-                </a>
-
-                <p><a href="#" class="category">Categoria</a></p>
-                <h2><a href="#" class="title"><span itemprop="headline">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span></a></h2>
-                <div class="main_blog_meta">
-                    <p>
-                        <span itemprop="author" itemscope itemtype="https://schema.org/Person">Por: <a href="https://www.facebook.com/julio.junior57" itemprop="url"><span itemprop="name">Julio Cesar Jr</span></a></span><br>
-                        <span itemprop="publisher" itemscope itemtype="https://schema.org/Organization">via: <span itemprop="logo" itemscope itemtype="https://schema.org/ImageObject"><img itemprop="url" src="_img/desenvolvimento.png" alt=""></span> <a href="https://www.facebook.com/julio.junior57" itemprop="url"><span itemprop="name">DeleteSemWhere</span></a>
-                            
                         </span>
                     </p>
                     <time datetime="2022-11-27" itemprop="datePublished">27/11/2022</time>
@@ -363,320 +448,328 @@
             </div>
         </article>
 
-        <section class="main_course">
-            <header class="main_course_header">
-                <img src="_img/logo.png" alt="">
-                <h1 class="icon-books">HTML 5 e CSS 3</h1>
-                <p>Aprenda a trabalhar com HTML 5 e CSS 3 para desenvolver seus projetos e entregar páginas que estejam
-                    dentro dos padroes da WEB seguindo as boas práticas</p>
-            </header>
-
-            <div class="main_course_content">
-                <article>
-                    <header>
-                        <h2>Curso 100% Online</h2>
-                        <p>Todas as aulas são gravadas em estúdio profissional para que você tenha a máxima qualidade de
-                            imagem e vídeo</p>
-                    </header>
-                </article>
-
-                <article>
-                    <header>
-                        <h2>Suporte Especializado</h2>
-                        <p>Este curso possui suporte diretamente com um profissional da nossa equipe oficial</p>
-                    </header>
-                </article>
-
-
-                <article>
-                    <header>
-                        <h2>Mais de 100 aulas divididas em 10 módulos</h2>
-                        <p>A modularização que você precisa para compreender de maneira mais objetiva</p>
-                    </header>
-                </article>
-
-                <article>
-                    <header>
-                        <h2>Certificado reconhecido em mais de 17 países</h2>
-                        <p>Ao concluir o curso você terá um certificado com reconhecimento em diversos países da América
-                            Latina</p>
-                    </header>
-                </article>
-
-            </div>
-
-
-            <div class="main_course_fullwidth">
-                <div class="main_course_rating_content">
-                    <article class="main_course_rating_content_title">
-                        <header>
-                            <h2>Curso considerado 5 estrelas por nossos 100 alunos matriculados</h2>
-                        </header>
-
-                        <img src="_img/star.png" alt="Review do curso HTML" title="Review do curso HTML">
-                        <img src="_img/star.png" alt="Review do curso HTML" title="Review do curso HTML">
-                        <img src="_img/star.png" alt="Review do curso HTML" title="Review do curso HTML">
-                        <img src="_img/star.png" alt="Review do curso HTML" title="Review do curso HTML">
-                        <img src="_img/star.png" alt="Review do curso HTML" title="Review do curso HTML">
-                    </article>
-
-                    <section class="main_course_rating_content_comment">
-                        <header>
-                            <h2>Veja o que estão falando sobre o curso</h2>
-                        </header>
-
-
-                        <article>
-                            <header>
-                                <h3>Julio Cesar JR</h3>
-                                <p>23/11/2022</p>
-                                <img src="_img/star.png" alt="Review do curso HTML" title="Review do curso HTML">
-                                <img src="_img/star.png" alt="Review do curso HTML" title="Review do curso HTML">
-                                <img src="_img/star.png" alt="Review do curso HTML" title="Review do curso HTML">
-                                <img src="_img/star.png" alt="Review do curso HTML" title="Review do curso HTML">
-                                <img src="_img/star.png" alt="Review do curso HTML" title="Review do curso HTML">
-                            </header>
-
-                            <p>O conteúdo é fantástico, eu não tinha conhecimento nenhum e agora estou desenvolvendo
-                                minhas
-                                páginas em HTML5 sem problemas</p>
-                        </article>
-
-                        <article>
-                            <header>
-                                <h3>Julio Cesar JR</h3>
-                                <p>23/11/2022</p>
-                                <img src="_img/star.png" alt="Review do curso HTML" title="Review do curso HTML">
-                                <img src="_img/star.png" alt="Review do curso HTML" title="Review do curso HTML">
-                                <img src="_img/star.png" alt="Review do curso HTML" title="Review do curso HTML">
-                                <img src="_img/star.png" alt="Review do curso HTML" title="Review do curso HTML">
-                                <img src="_img/star.png" alt="Review do curso HTML" title="Review do curso HTML">
-                            </header>
-
-                            <p>O conteúdo é fantástico, eu não tinha conhecimento nenhum e agora estou desenvolvendo
-                                minhas
-                                páginas em HTML5 sem problemas</p>
-                        </article>
-
-                        <article>
-                            <header>
-                                <h3>Julio Cesar JR</h3>
-                                <p>23/11/2022</p>
-                                <img src="_img/star.png" alt="Review do curso HTML" title="Review do curso HTML">
-                                <img src="_img/star.png" alt="Review do curso HTML" title="Review do curso HTML">
-                                <img src="_img/star.png" alt="Review do curso HTML" title="Review do curso HTML">
-                                <img src="_img/star.png" alt="Review do curso HTML" title="Review do curso HTML">
-                                <img src="_img/star.png" alt="Review do curso HTML" title="Review do curso HTML">
-                            </header>
-
-                            <p>O conteúdo é fantástico, eu não tinha conhecimento nenhum e agora estou desenvolvendo
-                                minhas
-                                páginas em HTML5 sem problemas</p>
-                        </article>
-
-                        <article>
-                            <header>
-                                <h3>Julio Cesar JR</h3>
-                                <p>23/11/2022</p>
-                                <img src="_img/star.png" alt="Review do curso HTML" title="Review do curso HTML">
-                                <img src="_img/star.png" alt="Review do curso HTML" title="Review do curso HTML">
-                                <img src="_img/star.png" alt="Review do curso HTML" title="Review do curso HTML">
-                                <img src="_img/star.png" alt="Review do curso HTML" title="Review do curso HTML">
-                                <img src="_img/star.png" alt="Review do curso HTML" title="Review do curso HTML">
-                            </header>
-
-                            <p>O conteúdo é fantástico, eu não tinha conhecimento nenhum e agora estou desenvolvendo
-                                minhas
-                                páginas em HTML5 sem problemas</p>
-                        </article>
-
-                        <article>
-                            <header>
-                                <h3>Julio Cesar JR</h3>
-                                <p>23/11/2022</p>
-                                <img src="_img/star.png" alt="Review do curso HTML" title="Review do curso HTML">
-                                <img src="_img/star.png" alt="Review do curso HTML" title="Review do curso HTML">
-                                <img src="_img/star.png" alt="Review do curso HTML" title="Review do curso HTML">
-                                <img src="_img/star.png" alt="Review do curso HTML" title="Review do curso HTML">
-                                <img src="_img/star.png" alt="Review do curso HTML" title="Review do curso HTML">
-                            </header>
-
-                            <p>O conteúdo é fantástico, eu não tinha conhecimento nenhum e agora estou desenvolvendo
-                                minhas
-                                páginas em HTML5 sem problemas</p>
-                        </article>
-
-                        <article>
-                            <header>
-                                <h3>Julio Cesar JR</h3>
-                                <p>23/11/2022</p>
-                                <img src="_img/star.png" alt="Review do curso HTML" title="Review do curso HTML">
-                                <img src="_img/star.png" alt="Review do curso HTML" title="Review do curso HTML">
-                                <img src="_img/star.png" alt="Review do curso HTML" title="Review do curso HTML">
-                                <img src="_img/star.png" alt="Review do curso HTML" title="Review do curso HTML">
-                                <img src="_img/star.png" alt="Review do curso HTML" title="Review do curso HTML">
-                            </header>
-
-                            <p>O conteúdo é fantástico, eu não tinha conhecimento nenhum e agora estou desenvolvendo
-                                minhas
-                                páginas em HTML5 sem problemas</p>
-                        </article>
-                    </section>
-                </div>
-            </div>
-        </section>
-
-
-        <div class="main_school">
-            <section class="main_school_content">
-                <header class="main_school_header">
-                    <h1>Bem vindo a JR Treinamentos</h1>
-                    <p>A sua escola de Programação e Marketing Digital</p>
+        <div itemscope itemtype="https://schema.org/Product">
+            <!-- Criado para englobar Curso - Escola e Tutor (pois pertence ao mesmo microformato)-->
+            <section class="main_course">
+                <header class="main_course_header">
+                    <img src="_img/logo.png" alt="Curso HTML5 e CSS3" title="Curso HTML5 e CSS3" itemprop="imagem">
+                    <h1 class="icon-books" itemprop="name">HTML 5 e CSS 3</h1>
+                    <p itemprop="description">Aprenda a trabalhar com HTML 5 e CSS 3 para desenvolver seus projetos e entregar páginas que
+                        estejam
+                        dentro dos padroes da WEB seguindo as boas práticas</p>
                 </header>
 
-                <div class="main_school_content_left">
-                    <article class="main_school_content_left_content">
+                <div class="main_course_content">
+                    <article>
                         <header>
-                            <p>
-                                <span class="icon-facebook"><a href="#">Facebook</a></span>
-                                <span class="icon-google-plus2"><a href="#">Google+</a></span>
-                                <span class="icon-twitter"><a href="#">Twitter</a>
-                            </p></span>
-                            <h2>Tudo o que você precisa para ser um WebMaster Full Stack em um só lugar</h2>
+                            <h2>Curso 100% Online</h2>
+                            <p>Todas as aulas são gravadas em estúdio profissional para que você tenha a máxima
+                                qualidade de
+                                imagem e vídeo</p>
                         </header>
-
-                        <p>Desde 2010 vem criando os melhores cursos do mercado, entregamos ao aluno
-                            conhecimento
-                            prático e testado sem enrolação. Você tem acesso a aulas com a melhor qualidade, recursos
-                            que
-                            aceleram seu aprendizado e muito mais...</p>
-
-                        <p>Que tal estudar, e ter o certificado da escola eleita a melhor do Brasil com reconhecimento
-                            em
-                            mais
-                            de 17 países pela Latin American Quality Institute?</p>
                     </article>
 
-                    <section class="main_school_list">
+                    <article>
                         <header>
-                            <h2>Confira nossos Prêmios</h2>
+                            <h2>Suporte Especializado</h2>
+                            <p>Este curso possui suporte diretamente com um profissional da nossa equipe oficial</p>
                         </header>
+                    </article>
 
-                        <article>
-                            <header>
-                                <h3 class="icon-trophy">Qualidade e Excelência - Master Pesquisas</h3>
-                            </header>
-                        </article>
 
-                        <article>
-                            <header>
-                                <h3 class="icon-trophy">Qualidade e Atendimento - Master Pesquisas</h3>
-                            </header>
-                        </article>
+                    <article>
+                        <header>
+                            <h2>Mais de 100 aulas divididas em 10 módulos</h2>
+                            <p>A modularização que você precisa para compreender de maneira mais objetiva</p>
+                        </header>
+                    </article>
 
-                        <article>
-                            <header>
-                                <h3 class="icon-trophy">Prêmio Diamante - Master Pesquisas</h3>
-                            </header>
-                        </article>
+                    <article>
+                        <header>
+                            <h2>Certificado reconhecido em mais de 17 países</h2>
+                            <p>Ao concluir o curso você terá um certificado com reconhecimento em diversos países da
+                                América
+                                Latina</p>
+                        </header>
+                    </article>
 
-                        <article>
-                            <header>
-                                <h3 class="icon-trophy">Estrela do Sul - Master Pesquisas</h3>
-                            </header>
-                        </article>
-
-                        <article>
-                            <header>
-                                <h3 class="icon-trophy">Medalha de Ouro a Excelência - LAQI</h3>
-                            </header>
-                        </article>
-
-                        <article>
-                            <header>
-                                <h3 class="icon-trophy">Brazil Quality Certification - LAQI</h3>
-                            </header>
-                        </article>
-
-                        <article>
-                            <header>
-                                <h3 class="icon-trophy">Melhor Plataforma EAD - Digital Awards</h3>
-                            </header>
-                        </article>
-                    </section>
-                </div>
-
-                <div class="main_school_content_right">
-                    <img src="_img/desenvolvimento.png" alt="Escola" title="Escola ">
                 </div>
 
 
-                <article class="main_school_address">
-                    <header>
-                        <h2 class="icon-map2">Nos encontre</h2>
-                    </header>
+                <div class="main_course_fullwidth">
+                    <div class="main_course_rating_content">
+                        <article class="main_course_rating_content_title">
+                            <header>
+                                <h2>Curso considerado 5 estrelas por nossos 100 alunos matriculados</h2>
+                            </header>
 
-                    <p>Rua Teste, 147 - Avaré / SP</p>
-                </article>
+                            <img src="_img/star.png" alt="Review do curso HTML" title="Review do curso HTML">
+                            <img src="_img/star.png" alt="Review do curso HTML" title="Review do curso HTML">
+                            <img src="_img/star.png" alt="Review do curso HTML" title="Review do curso HTML">
+                            <img src="_img/star.png" alt="Review do curso HTML" title="Review do curso HTML">
+                            <img src="_img/star.png" alt="Review do curso HTML" title="Review do curso HTML">
+                        </article>
+
+                        <section class="main_course_rating_content_comment">
+                            <header>
+                                <h2>Veja o que estão falando sobre o curso</h2>
+                            </header>
+
+
+                            <article>
+                                <header>
+                                    <h3>Julio Cesar JR</h3>
+                                    <p>23/11/2022</p>
+                                    <img src="_img/star.png" alt="Review do curso HTML" title="Review do curso HTML">
+                                    <img src="_img/star.png" alt="Review do curso HTML" title="Review do curso HTML">
+                                    <img src="_img/star.png" alt="Review do curso HTML" title="Review do curso HTML">
+                                    <img src="_img/star.png" alt="Review do curso HTML" title="Review do curso HTML">
+                                    <img src="_img/star.png" alt="Review do curso HTML" title="Review do curso HTML">
+                                </header>
+
+                                <p>O conteúdo é fantástico, eu não tinha conhecimento nenhum e agora estou desenvolvendo
+                                    minhas
+                                    páginas em HTML5 sem problemas</p>
+                            </article>
+
+                            <article>
+                                <header>
+                                    <h3>Julio Cesar JR</h3>
+                                    <p>23/11/2022</p>
+                                    <img src="_img/star.png" alt="Review do curso HTML" title="Review do curso HTML">
+                                    <img src="_img/star.png" alt="Review do curso HTML" title="Review do curso HTML">
+                                    <img src="_img/star.png" alt="Review do curso HTML" title="Review do curso HTML">
+                                    <img src="_img/star.png" alt="Review do curso HTML" title="Review do curso HTML">
+                                    <img src="_img/star.png" alt="Review do curso HTML" title="Review do curso HTML">
+                                </header>
+
+                                <p>O conteúdo é fantástico, eu não tinha conhecimento nenhum e agora estou desenvolvendo
+                                    minhas
+                                    páginas em HTML5 sem problemas</p>
+                            </article>
+
+                            <article>
+                                <header>
+                                    <h3>Julio Cesar JR</h3>
+                                    <p>23/11/2022</p>
+                                    <img src="_img/star.png" alt="Review do curso HTML" title="Review do curso HTML">
+                                    <img src="_img/star.png" alt="Review do curso HTML" title="Review do curso HTML">
+                                    <img src="_img/star.png" alt="Review do curso HTML" title="Review do curso HTML">
+                                    <img src="_img/star.png" alt="Review do curso HTML" title="Review do curso HTML">
+                                    <img src="_img/star.png" alt="Review do curso HTML" title="Review do curso HTML">
+                                </header>
+
+                                <p>O conteúdo é fantástico, eu não tinha conhecimento nenhum e agora estou desenvolvendo
+                                    minhas
+                                    páginas em HTML5 sem problemas</p>
+                            </article>
+
+                            <article>
+                                <header>
+                                    <h3>Julio Cesar JR</h3>
+                                    <p>23/11/2022</p>
+                                    <img src="_img/star.png" alt="Review do curso HTML" title="Review do curso HTML">
+                                    <img src="_img/star.png" alt="Review do curso HTML" title="Review do curso HTML">
+                                    <img src="_img/star.png" alt="Review do curso HTML" title="Review do curso HTML">
+                                    <img src="_img/star.png" alt="Review do curso HTML" title="Review do curso HTML">
+                                    <img src="_img/star.png" alt="Review do curso HTML" title="Review do curso HTML">
+                                </header>
+
+                                <p>O conteúdo é fantástico, eu não tinha conhecimento nenhum e agora estou desenvolvendo
+                                    minhas
+                                    páginas em HTML5 sem problemas</p>
+                            </article>
+
+                            <article>
+                                <header>
+                                    <h3>Julio Cesar JR</h3>
+                                    <p>23/11/2022</p>
+                                    <img src="_img/star.png" alt="Review do curso HTML" title="Review do curso HTML">
+                                    <img src="_img/star.png" alt="Review do curso HTML" title="Review do curso HTML">
+                                    <img src="_img/star.png" alt="Review do curso HTML" title="Review do curso HTML">
+                                    <img src="_img/star.png" alt="Review do curso HTML" title="Review do curso HTML">
+                                    <img src="_img/star.png" alt="Review do curso HTML" title="Review do curso HTML">
+                                </header>
+
+                                <p>O conteúdo é fantástico, eu não tinha conhecimento nenhum e agora estou desenvolvendo
+                                    minhas
+                                    páginas em HTML5 sem problemas</p>
+                            </article>
+
+                            <article>
+                                <header>
+                                    <h3>Julio Cesar JR</h3>
+                                    <p>23/11/2022</p>
+                                    <img src="_img/star.png" alt="Review do curso HTML" title="Review do curso HTML">
+                                    <img src="_img/star.png" alt="Review do curso HTML" title="Review do curso HTML">
+                                    <img src="_img/star.png" alt="Review do curso HTML" title="Review do curso HTML">
+                                    <img src="_img/star.png" alt="Review do curso HTML" title="Review do curso HTML">
+                                    <img src="_img/star.png" alt="Review do curso HTML" title="Review do curso HTML">
+                                </header>
+
+                                <p>O conteúdo é fantástico, eu não tinha conhecimento nenhum e agora estou desenvolvendo
+                                    minhas páginas em HTML5 sem problemas</p>
+                            </article>
+                        </section>
+                    </div>
+                </div>
             </section>
-        </div>
 
 
-
-        <section class="main_tutor">
-            <div class="main_tutor_content">
-                <header>
-                    <h1>Conheça Julio Cesar Jr, seu tutor nesse site</h1>
-                    <p>Te ajudando a criar sua webpage com HTML 5 e CSS 3</p>
-                </header>
-
-                <div class="main_tutor_content_img">
-                    <img src="_img/julioweb.jpg" alt="Professor" title="Professor">
-                </div>
-
-
-                <article class="main_tutor_content_history">
-                    <header>
-                        <h2>Formado em Analise e desenvolvimento de sistema</h2>
+            <div class="main_school">
+                <section class="main_school_content">
+                    <header class="main_school_header">
+                        <h1>Bem vindo a JR Treinamentos</h1>
+                        <p>A sua escola de Programação e Marketing Digital</p>
                     </header>
 
-                    <p>Como muitos, comecei na programação por conta dos jogos! Com o tempo, o amor pela programação foi
-                        crescendo a ponto de tomar como profissão e me especializar na área. Hoje, com a bagagem que
-                        tenho,
-                        compartilho meu conhecimento com todos os alunos da Desenvolvimento Web</p>
-                </article>
+                    <div class="main_school_content_left">
+                        <article class="main_school_content_left_content">
+                            <header>
+                                <p>
+                                    <span class="icon-facebook"><a href="#">Facebook</a></span>
+                                    <span class="icon-google-plus2"><a href="#">Google+</a></span>
+                                    <span class="icon-twitter"><a href="#">Twitter</a></span>
+                                </p>
+                                <h2>Tudo o que você precisa para ser um WebMaster Full Stack em um só lugar</h2>
+                            </header>
 
-                <section class="main_tutor_social_network">
-                    <header>
-                        <h2>Me siga nas redes sociais</h2>
-                    </header>
+                            <p>Desde 2010 vem criando os melhores cursos do mercado, entregamos ao aluno
+                                conhecimento
+                                prático e testado sem enrolação. Você tem acesso a aulas com a melhor qualidade,
+                                recursos
+                                que
+                                aceleram seu aprendizado e muito mais...</p>
 
-                    <article>
+                            <p>Que tal estudar, e ter o certificado da escola eleita a melhor do Brasil com
+                                reconhecimento
+                                em
+                                mais
+                                de 17 países pela Latin American Quality Institute?</p>
+                        </article>
+
+                        <section class="main_school_list">
+                            <header>
+                                <h2>Confira nossos Prêmios</h2>
+                            </header>
+
+                            <article>
+                                <header>
+                                    <h3 class="icon-trophy">Qualidade e Excelência - Master Pesquisas</h3>
+                                </header>
+                            </article>
+
+                            <article>
+                                <header>
+                                    <h3 class="icon-trophy">Qualidade e Atendimento - Master Pesquisas</h3>
+                                </header>
+                            </article>
+
+                            <article>
+                                <header>
+                                    <h3 class="icon-trophy">Prêmio Diamante - Master Pesquisas</h3>
+                                </header>
+                            </article>
+
+                            <article>
+                                <header>
+                                    <h3 class="icon-trophy">Estrela do Sul - Master Pesquisas</h3>
+                                </header>
+                            </article>
+
+                            <article>
+                                <header>
+                                    <h3 class="icon-trophy">Medalha de Ouro a Excelência - LAQI</h3>
+                                </header>
+                            </article>
+
+                            <article>
+                                <header>
+                                    <h3 class="icon-trophy">Brazil Quality Certification - LAQI</h3>
+                                </header>
+                            </article>
+
+                            <article>
+                                <header>
+                                    <h3 class="icon-trophy">Melhor Plataforma EAD - Digital Awards</h3>
+                                </header>
+                            </article>
+                        </section>
+                    </div>
+
+                    <div class="main_school_content_right">
+                        <img src="_img/desenvolvimento.png" alt="Escola" title="Escola ">
+                    </div>
+
+
+                    <article class="main_school_address">
                         <header>
-                            <h3><a href="#" class="icon-facebook">Meu Facebook</a></h3>
+                            <h2 class="icon-map2">Nos encontre</h2>
                         </header>
-                    </article>
 
-                    <article>
-                        <header>
-                            <h3><a href="#" class="icon-facebook2">Minha FanPage</a></h3>
-                        </header>
-                    </article>
-
-                    <article>
-                        <header>
-                            <h3><a href="#" class="icon-google-plus2">Meu Google+</a></h3>
-                        </header>
-                    </article>
-
-                    <article>
-                        <header>
-                            <h3><a href="#" class="icon-instagram">Meu Instagram</a></h3>
-                        </header>
+                        <p>Rua Teste, 147 - Avaré / SP</p>
                     </article>
                 </section>
             </div>
-        </section>
+
+
+
+            <section class="main_tutor">
+                <div class="main_tutor_content">
+                    <header>
+                        <h1>Conheça Julio Cesar Jr, seu tutor nesse site</h1>
+                        <p>Te ajudando a criar sua webpage com HTML 5 e CSS 3</p>
+                    </header>
+
+                    <div class="main_tutor_content_img">
+                        <img src="_img/julioweb.jpg" alt="Professor" title="Professor">
+                    </div>
+
+
+                    <article class="main_tutor_content_history">
+                        <header>
+                            <h2>Formado em Analise e desenvolvimento de sistema</h2>
+                        </header>
+
+                        <p>Como muitos, comecei na programação por conta dos jogos! Com o tempo, o amor pela programação
+                            foi
+                            crescendo a ponto de tomar como profissão e me especializar na área. Hoje, com a bagagem que
+                            tenho,
+                            compartilho meu conhecimento com todos os alunos da Desenvolvimento Web</p>
+                    </article>
+
+                    <section class="main_tutor_social_network">
+                        <header>
+                            <h2>Me siga nas redes sociais</h2>
+                        </header>
+
+                        <article>
+                            <header>
+                                <h3><a href="#" class="icon-facebook">Meu Facebook</a></h3>
+                            </header>
+                        </article>
+
+                        <article>
+                            <header>
+                                <h3><a href="#" class="icon-facebook2">Minha FanPage</a></h3>
+                            </header>
+                        </article>
+
+                        <article>
+                            <header>
+                                <h3><a href="#" class="icon-google-plus2">Meu Google+</a></h3>
+                            </header>
+                        </article>
+
+                        <article>
+                            <header>
+                                <h3><a href="#" class="icon-instagram">Meu Instagram</a></h3>
+                            </header>
+                        </article>
+                    </section>
+                </div>
+            </section>
+        </div>
     </main>
 
 
@@ -746,11 +839,11 @@
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-GLNB1WFB7N"></script>
     <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-    gtag('config', 'G-GLNB1WFB7N');
+        gtag('config', 'G-GLNB1WFB7N');
     </script>
 
 </body>
